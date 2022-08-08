@@ -1,0 +1,17 @@
+{
+  "name": "mi-casa-v2",
+  "version": "1.0.0",
+  "description": "My floor plan written entirely in css and html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "author": "alexander-svendsen",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "latest"
+  }
+}
